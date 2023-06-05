@@ -25,19 +25,25 @@ body{
 }
 
 .firstContent {
+    padding: 50px;
+    justify-content: center;
     display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .firstLeft {
+    width: 400px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .firstRight {
+    width: 400px;
     display: flex;
 }
 
 img {
-    position: relative;
     width: 100%;
 }
 
@@ -54,5 +60,13 @@ img {
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signUp {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
     color: #F9FAF8;
 }
