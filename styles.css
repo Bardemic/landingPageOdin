@@ -12,7 +12,7 @@ body{
 }
 
 .header {
-    padding: 5px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,6 +22,7 @@ body{
 .headerLinks {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .firstContent {
@@ -77,4 +78,8 @@ img {
 .signUp:hover {
     background-color: white; 
     color: #3882F6;
+}
+
+.headerLink {
+    color: #F9FAF8;
 }
