@@ -143,3 +143,44 @@ img {
     font-weight: bolder;
     align-self: flex-end;
 }
+
+.fourthSection {
+    padding: 60px 100px;
+}
+
+.actionBox {
+    display: flex;
+    padding: 30px 60px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.actionLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.actionHeader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.actionText {
+    color: #F9FAF8;
+}
+
+.actionButton {
+    background-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 20px;
+    width: 100px;
+    color: #3882F6;
+    transition-duration: 0.4s;
+}
+
+.actionButton:hover {
+    background-color: #3882F6; 
+    color: #F9FAF8;
+}
