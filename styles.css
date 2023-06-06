@@ -145,10 +145,11 @@ img {
 }
 
 .fourthSection {
-    padding: 60px 100px;
+    padding: 80px 200px;
 }
 
 .actionBox {
+    margin: 20px;
     display: flex;
     padding: 30px 60px;
     background-color: #3882F6;
