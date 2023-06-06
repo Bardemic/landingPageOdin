@@ -125,3 +125,21 @@ img {
     width: 150px;
     text-align: center;
 }
+
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.quotedBy {
+    font-weight: bolder;
+    align-self: flex-end;
+}
